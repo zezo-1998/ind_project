@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/flashcards.css">
+    <title>Geography Study Mode B</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="head.html" class="logo">Study Buddy</a>
+        <nav class="navbar">
+            <div class="dropdown">
+                <a class="dropbtn" href="head.html">Subjects</a>
+                <div class="dropdown-content">
+                    <a href="geography.html" class="subject-option" data-subject="geography">Geography</a>
+                    <a href="history.html" class="subject-option" data-subject="history">History</a>
+                    <a href="mathematics.html" class="subject-option" data-subject="mathematics">Mathematics</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button id="add-question-btn" style="margin: 10px;">Add a question</button>
+    
+    <div id="question-form" class="hidden" style="margin: 10px;">
+        <label for="question-input">Question:</label>
+        <input type="text" id="question-input">
+        <label for="answer-input">Answer:</label>
+        <input type="text" id="answer-input">
+        <button id="submit-question-btn">Add:</button>
+    </div>
+    
+
+    <div class="content" id="geography-content"></div>
+
+    <script src="geographylevelb.js"></script>
+</body>
+
+</html>

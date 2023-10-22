@@ -1,0 +1,2 @@
+To start working with the project make sure you have node and npm. My node version is v18.18.0 and my npm version is 9.8.1. The database I use is mysql and you have all details available in the file db/db.js. I run the command "node server.js" to start the server. I run this command as well "npm install bcryptjs" to use hashed password in the database, you can notice that some account have thier original passwords in the database and thats only because they were created before the implementing of the hased password. 
+Good luck!

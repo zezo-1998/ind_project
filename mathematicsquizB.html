@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/quiz1.css">
+    <title>Mathematics Quiz Mode B</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="head.html" class="logo">Study Buddy</a>
+        <nav class="navbar">
+            <div class="dropdown">
+                <a class="dropbtn" href="head.html">Subjects</a>
+                <div class="dropdown-content">
+                    <a href="geography.html" class="subject-option" data-subject="geography">Geography</a>
+                    <a href="history.html" class="subject-option" data-subject="history">History</a>
+                    <a href="mathematics.html" class="subject-option" data-subject="mathematics">Mathematics</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="quiz-container">
+        <div id="question"></div>
+        <div id="answers"></div>
+        <button id="next-btn" class="hide">Next</button>
+        <div id="score">Score: 0</div>
+        <button id="finish-btn" class="hide">Finish</button>
+        <div id="summary" class="hide">
+            <h2>Your Score</h2>
+            <div id="user-score"></div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="mathematicsquizB.js"></script>
+</body>
+
+</html>
